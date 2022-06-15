@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>ice-cream-shop</artifactId>
 	<packaging>war</packaging>
 	<version>1.4.0-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>ice-cream-shop</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Acada Learning</name>
+		<name>Ikechukwu Jerome</name>
 		<url>http://acadalearning.com/</url>
 	</organization>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.204.145.60:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.89.141:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,20 +96,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Acada Learning Releases Nexus Repository</name>
+	      <name>Ice Cream Shop Webpage Release Repository</name>
 	      <url>http://172.31.89.141:8081/repository/icecream-shop-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Acada Learning Snapshot Nexus Repository</name>
+	      <name>Ice Cream Shop Webpage Release Repository</name>
 	      <url>http://172.31.89.141:8081/repository/ice-cream-shop-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>ice-cream-shop</finalName>
 		
 		<plugins>
 			<plugin>
@@ -129,7 +129,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/ice-cream-sho</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -142,7 +142,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>ice-cream-shop</wtpContextName>
 				</configuration>
 			</plugin>
 			
