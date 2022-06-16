@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>ice-cream-shop</artifactId>
+	<artifactId>ice-cream-shop-page</artifactId>
 	<packaging>war</packaging>
-	<version>1.4.0-SNAPSHOT</version>
+	<version>1.5.0-SNAPSHOT</version>
 	
 	<name>ice-cream-shop</name>
 
