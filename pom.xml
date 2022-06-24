@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>ice-cream-shop-page</artifactId>
 	<packaging>war</packaging>
-	<version>1.6.0-SNAPSHOT</version>
+	<version>1.8.0-SNAPSHOT</version>
 	
 	<name>ice-cream-shop</name>
 
