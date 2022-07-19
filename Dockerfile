@@ -1,2 +1,2 @@
-FROM  9.0.64-jre8-openjdk-slim-buster
+FROM  tomcat:8.0.20-jre8
 COPY target/*.war /usr/local/tomcat/webapps/sweetchop.war
